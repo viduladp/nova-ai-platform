@@ -1,0 +1,79 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "intent": "order_status",
+      "message": "Hi, I'm checking on the status of my order #NOVA1234. It's been 5 days since I placed the order for the Luxe Serum and I still haven't received any updates on shipping."
+    },
+    {
+      "id": 2,
+      "intent": "return_request",
+      "message": "I need to return the Misty Makeup Palette I bought last week. The colors don't match my skin tone as expected. My order number is #NOVA5678. Can you please assist me with the return process?"
+    },
+    {
+      "id": 3,
+      "intent": "product_query",
+      "message": "What's the difference between the Day Glow Moisturizer and the Night Repair Cream? I have dry skin and I'm looking for a product that will provide long-lasting hydration."
+    },
+    {
+      "id": 4,
+      "intent": "ingredients",
+      "message": "I'm allergic to parabens. Can you please tell me if the Nova Shampoo contains any parabens? I want to make sure it's safe for me to use."
+    },
+    {
+      "id": 5,
+      "intent": "sizing",
+      "message": "I'm interested in buying the Velvet Dress, but I'm not sure what size to get. I'm usually a medium, but I've heard that Nova's dresses run a bit small. Can you please provide me with the measurements for each size?"
+    },
+    {
+      "id": 6,
+      "intent": "complaint/angry",
+      "message": "I'm extremely disappointed with the quality of the Nova Hair Mask. It's supposed to be sulfate-free, but it's made my hair feel dry and stripped of its natural oils. I demand a refund and a replacement with a better product."
+    },
+    {
+      "id": 7,
+      "intent": "order_status",
+      "message": "Hey, just wanted to check in on my order #NOVA9012. I ordered the Nova Eyeshadow Palette and the shipping estimate said 3-5 business days, but it's been 7 days and I still haven't received it."
+    },
+    {
+      "id": 8,
+      "intent": "return_request",
+      "message": "I received my order #NOVA3456, but the Nova Lipstick is the wrong shade. I ordered 'Blush' but got 'Ruby' instead. Can you please help me exchange it for the correct shade?"
+    },
+    {
+      "id": 9,
+      "intent": "product_query",
+      "message": "I'm looking for a new foundation that matches my skin tone. I have oily skin and I'm looking for something that will control shine and last all day. Can you recommend any products from Nova?"
+    },
+    {
+      "id": 10,
+      "intent": "ingredients",
+      "message": "Does the Nova Face Cream contain any fragrances or dyes? I have sensitive skin and I need to avoid products with harsh ingredients."
+    },
+    {
+      "id": 11,
+      "intent": "sizing",
+      "message": "I'm trying to buy the Nova Jeans, but I'm not sure what size to get. I'm a 28 in most brands, but I've never shopped at Nova before. Can you please provide me with a size chart?"
+    },
+    {
+      "id": 12,
+      "intent": "complaint/angry",
+      "message": "I'm so frustrated with the customer service at Nova. I've been trying to contact you for weeks about my missing order #NOVA1111, and no one has gotten back to me. I demand a refund and a personal apology from the CEO."
+    },
+    {
+      "id": 13,
+      "intent": "promo_code",
+      "message": "I saw a promo code on Instagram for 15% off all orders over $50. Can you please tell me if the code 'NOVA15' is still valid? I want to use it on my next purchase."
+    },
+    {
+      "id": 14,
+      "intent": "order_status",
+      "message": "Hi, I'm checking on the status of my order #NOVA7890. I ordered the Nova Watch and it was supposed to arrive yesterday, but it still hasn't arrived. Can you please look into this and let me know what's going on?"
+    },
+    {
+      "id": 15,
+      "intent": "cancellation",
+      "message": "I need to cancel my order #NOVA4567. I just realized that I accidentally ordered two of the same product, and I only need one. Can you please cancel the order and refund me as soon as possible?"
+    }
+  ]
+}
