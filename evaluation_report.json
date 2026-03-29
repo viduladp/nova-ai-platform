@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "task": "Task 3 \u2014 RAG Pipeline",
+    "timestamp": "2026-03-29T09:16:26.171309",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "llm": "llama-3.3-70b-versatile",
+    "total_documents": 72,
+    "eval_questions": 10
+  },
+  "retrieval_config": {
+    "strategy": "hybrid",
+    "dense_top_k": 10,
+    "sparse_top_k": 10,
+    "final_top_k": 3,
+    "dense_model": "ChromaDB + BAAI/bge-small-en-v1.5",
+    "sparse_model": "BM25Okapi"
+  },
+  "ragas_scores": {
+    "faithfulness": 0.55,
+    "answer_relevancy": 0.615,
+    "context_precision": 0.0
+  },
+  "test_results": [
+    {
+      "query": "Does your vitamin C serum contain niacinamide?",
+      "answer": "The NOVA Vitamin C Serum does not contain niacinamide. According to the product information, the ingredients of the NOVA Vitamin C Serum are Vitamin C, Retinol, Tea Tree Oil, and Hyaluronic Acid. If you're looking for a product with niacinamide, you might consider the NOVA Niacinamide Toner instead.",
+      "sources": [
+        {
+          "product_id": "SKU-1001",
+          "name": "NOVA Vitamin C Serum",
+          "category": "skincare",
+          "rerank_score": -3.663
+        },
+        {
+          "product_id": "SKU-1005",
+          "name": "NOVA Niacinamide Toner",
+          "category": "skincare",
+          "rerank_score": -3.835
+        },
+        {
+          "product_id": "SKU-1006",
+          "name": "NOVA Hyaluronic Acid Serum",
+          "category": "skincare",
+          "rerank_score": -7.306
+        }
+      ],
+      "latency_ms": 1297.4
+    },
+    {
+      "query": "What sizes are available for the wrap dress?",
+      "answer": "The NOVA Wrap Dress is available in sizes XS, S, M, L, XL, and XXL. You can find these sizes listed in the product information for the NOVA Wrap Dress. The dress is made of wool and is currently in stock. Please note that size availability may be subject to change, but according to the current information, these six sizes are available for the NOVA Wrap Dress.",
+      "sources": [
+        {
+          "product_id": "SKU-1031",
+          "name": "NOVA Wrap Dress",
+          "category": "apparel",
+          "rerank_score": 6.246
+        },
+        {
+          "product_id": "SKU-1034",
+          "name": "NOVA Silk Blouse",
+          "category": "apparel",
+          "rerank_score": -5.28
+        },
+        {
+          "product_id": "SKU-1050",
+          "name": "NOVA Espadrilles",
+          "category": "footwear",
+          "rerank_score": -6.023
+        }
+      ],
+      "latency_ms": 1340.49
+    },
+    {
+      "query": "Which products are suitable for sensitive skin?",
+      "answer": "For sensitive skin, the NOVA Face Cleanser and NOVA Hydrating Moisturizer are suitable options. Both products are formulated for sensitive skin, among other skin types. You can find these products on their respective product pages, which provide more detailed information on skin type compatibility.",
+      "sources": [
+        {
+          "product_id": "FAQ-009",
+          "name": "Are products safe for sensitive skin?",
+          "category": "faq_products",
+          "rerank_score": 7.372
+        },
+        {
+          "product_id": "SKU-1009",
+          "name": "NOVA Face Cleanser",
+          "category": "skincare",
+          "rerank_score": 2.19
+        },
+        {
+          "product_id": "SKU-1002",
+          "name": "NOVA Hydrating Moisturizer",
+          "category": "skincare",
+          "rerank_score": 1.678
+        }
+      ],
+      "latency_ms": 1110.39
+    },
+    {
+      "query": "What is your return policy?",
+      "answer": "For the NOVA product, returns are free within 30 days of delivery, as long as the product is unused and in its original packaging. If you'd like to return your NOVA product, please ensure it meets these conditions. Refunds for returned NOVA products are processed within 5-7 business days after the return is received.",
+      "sources": [
+        {
+          "product_id": "FAQ-002",
+          "name": "What is the return policy?",
+          "category": "faq_returns",
+          "rerank_score": 6.317
+        },
+        {
+          "product_id": "FAQ-006",
+          "name": "Can I cancel my order?",
+          "category": "faq_orders",
+          "rerank_score": -7.482
+        },
+        {
+          "product_id": "FAQ-010",
+          "name": "How long does a refund take?",
+          "category": "faq_returns",
+          "rerank_score": -7.694
+        }
+      ],
+      "latency_ms": 907.6
+    },
+    {
+      "query": "Do you have any cruelty-free makeup products?",
+      "answer": "Yes, we have cruelty-free makeup products, such as the NOVA Concealer and NOVA Setting Spray. According to our product information, all NOVA products, including these makeup items, are 100% cruelty-free and dermatologist tested. You can choose from a range of products, including the NOVA Concealer and NOVA Setting Spray, which are both in stock.",
+      "sources": [
+        {
+          "product_id": "FAQ-004",
+          "name": "Are your products cruelty-free?",
+          "category": "faq_products",
+          "rerank_score": 5.023
+        },
+        {
+          "product_id": "SKU-1012",
+          "name": "NOVA Concealer",
+          "category": "makeup",
+          "rerank_score": -9.296
+        },
+        {
+          "product_id": "SKU-1018",
+          "name": "NOVA Setting Spray",
+          "category": "makeup",
+          "rerank_score": -9.738
+        }
+      ],
+      "latency_ms": 1019.53
+    }
+  ]
+}
