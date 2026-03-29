@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-03-29T14:08:38.867231",
+  "model": "unsloth/tinyllama-chat-bnb-4bit",
+  "eval_results": [
+    {
+      "scenario": "Order delay",
+      "input": "Your order TRX-1042 is delayed by 3 days.",
+      "base_response": "Dear valued customer,\n\nRe: Order TRX-1042\n\nWe regret to inform you that your order, TRX-1042, has been delayed by 3 days. We apologize for any inconvenience this may cause and appreciate your patience and understanding in this matter.\n\nYou can expect to receive your order on the revised delivery date, which will be [insert revised delivery date]. If you have any questions or concerns, please don't hesitate to reach out to us. We're here to help.\n\nThank you for your understanding and we look forward to delivering your order to you as soon as possible.\n\nBest regards,\n[Your Company Name]",
+      "ft_response": "We're so sorry to hear that your order is delayed, and we appreciate that you're checking on TRX-1042. We're going to look into the issue and get TRX-1042 to you as soon as possible. You'll get an update soon.",
+      "base_scores": {
+        "warmth": 4,
+        "clarity": 5,
+        "on_brand": 5,
+        "overall": 4
+      },
+      "ft_scores": {
+        "warmth": 4,
+        "clarity": 4,
+        "on_brand": 5,
+        "overall": 4
+      }
+    },
+    {
+      "scenario": "Return request",
+      "input": "Return request received for NOVA Vitamin C Serum.",
+      "base_response": "Dear valued customer,\n\nThank you for reaching out to us about returning your NOVA Vitamin C Serum. We apologize if the product has not met your expectations. We would be happy to assist you with the return process.\n\nTo initiate the return, could you please provide us with your order number and the reason for the return? This will help us to process your request quickly and efficiently.\n\nAdditionally, please note that we will provide a return shipping label and a full refund or exchange (your choice) once we receive the returned product.\n\nIf you have any questions or concerns, please don't hesitate to reach out to us. We're here to help.\n\nThank you for shopping with us, and we look forward to resolving this issue for you.\n\nBest regards,\n",
+      "ft_response": "We're glad you're interested in returning a product - we want you to get the best experience possible. We'll send you a return shipping label right away, and we'll take care of returning the product for you. Please keep the product and packaging, and we'll send you a refund or exchange within 14 days.",
+      "base_scores": {
+        "warmth": 4,
+        "clarity": 5,
+        "on_brand": 5,
+        "overall": 5
+      },
+      "ft_scores": {
+        "warmth": 4,
+        "clarity": 5,
+        "on_brand": 5,
+        "overall": 5
+      }
+    },
+    {
+      "scenario": "Product question",
+      "input": "The NOVA Hydrating Moisturizer contains Peptides, Vitamin C.",
+      "base_response": "The NOVA Hydrating Moisturizer sounds like a great product, with peptides to help stimulate collagen production and improve skin elasticity, and vitamin C to provide antioxidant benefits and brighten the skin. Can you tell me a bit more about what you're looking for in a moisturizer, or is there something specific you'd like to know about the NOVA Hydrating Moisturizer?",
+      "ft_response": "We're happy to help you get the most out of our Hydrating Moisturizer - it's packed with powerful ingredients to nourish and protect your skin. We're here to answer any questions about its effects, and we're always here to help you find the perfect product for your skin type.",
+      "base_scores": {
+        "warmth": 4,
+        "clarity": 5,
+        "on_brand": 4,
+        "overall": 4
+      },
+      "ft_scores": {
+        "warmth": 4,
+        "clarity": 4,
+        "on_brand": 5,
+        "overall": 4
+      }
+    },
+    {
+      "scenario": "Angry customer",
+      "input": "Customer complaint: order never arrived, very angry.",
+      "base_response": "Dear [Customer's Name],\n\nI am so sorry to hear that your order never arrived. I can imagine how frustrating and disappointing this must be for you, and I want to start by apologizing for the inconvenience this has caused.\n\nI'd like to help you resolve this issue as quickly as possible. Can you please provide me with your order number so I can look into this further? I'll do my best to track down what might have gone wrong and figure out a solution.\n\nIf your order was indeed lost or misplaced, I'd be happy to reship the item to you or provide a full refund, whichever you prefer. Your satisfaction is my top priority, and I want to make things right.\n\nPlease know that I'm committed to making this",
+      "ft_response": "We're sorry you're not happy with your order - we're here to help you get back on track. We're checking on the status of your order right now - we'll get it to you ASAP and make sure you get your hands on it soon.",
+      "base_scores": {
+        "warmth": 5,
+        "clarity": 5,
+        "on_brand": 4,
+        "overall": 5
+      },
+      "ft_scores": {
+        "warmth": 4,
+        "clarity": 4,
+        "on_brand": 5,
+        "overall": 4
+      }
+    },
+    {
+      "scenario": "Shipping query",
+      "input": "Standard shipping takes 5-7 business days.",
+      "base_response": "Thank you for your inquiry. Just to confirm, you can expect your order to arrive within 5-7 business days with our standard shipping option. If you have any further questions or would like to explore expedited shipping options, please don't hesitate to reach out.",
+      "ft_response": "We're so sorry to hear that your order took a little longer than expected - we know how frustrating it can be. We appreciate your patience and understanding. Our standard shipping takes 5-7 business days, and we're working hard to get your order to you as quickly as possible.",
+      "base_scores": {
+        "warmth": 4,
+        "clarity": 5,
+        "on_brand": 4,
+        "overall": 4
+      },
+      "ft_scores": {
+        "warmth": 4,
+        "clarity": 4,
+        "on_brand": 5,
+        "overall": 4
+      }
+    }
+  ]
+}
