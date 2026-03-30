@@ -26,7 +26,7 @@ nova-ai-platform/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
-├── trinx_mock_db.json
+├── nova_mock_db.json
 ├── prompts/
 │   ├── system_prompt_v1.txt
 │   └── system_prompt_v2.txt
@@ -40,13 +40,13 @@ nova-ai-platform/
 ├── task3_rag_pipeline.ipynb
 ├── rag_module.py
 ├── task4_finetune.ipynb
-├── task5_trinx_platform.py
+├── task5_nova_platform.py
 ├── task5_demo.py
 ├── task5_notebook.ipynb
-├── trinx_agent_graph.png
+├── nova_agent_graph.png
 ├── evaluation_report.json
 ├── audit_log.jsonl
-└── trinx_traces.json
+└── nova_traces.json
 ```
 
 ---
