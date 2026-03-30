@@ -36,8 +36,6 @@ nova-ai-platform/
 ├── task1_prompt_engineering.ipynb
 ├── task2_mcp/
 │   ├── server.py
-│   ├── client.py
-│   └── demo.py
 ├── task2_mcp_notebook.ipynb
 ├── task3_rag_pipeline.ipynb
 ├── rag_module.py
@@ -63,7 +61,7 @@ nova-ai-platform/
 - HuggingFace token — [huggingface.co](https://huggingface.co) (Task 4 only)
 
 ### Environment Variables
-Copy `.env.example` to `.env` and fill in your keys:
+Copy `.env` and fill in your keys:
 ```bash
 GROQ_API_KEY=your_groq_api_key_here
 WANDB_API_KEY=your_wandb_api_key_here
@@ -118,40 +116,5 @@ LangGraph multi-agent system integrating Tasks 1–4. Six nodes: Intent Classifi
 
 
 
-
-
-
-NOVA AI Support & Personalization Platform
-AI EngineerAssessment — Multi-Agent AI System for NOVA, a D2C Fashion & Beauty Brand.
-
-
-🔗 Shareable Links
-Resource Link
-Task 1 — https://colab.research.google.com/drive/117LX_5tH2yzgDkJ1pJpiWyVSZLw6SgBR?usp=sharing
-Task 2 — https://colab.research.google.com/drive/1dExWNfhPqz_CD0q-JFlBM6nG8r9HSE8z?usp=sharing
-Task 3 — https://colab.research.google.com/drive/18Hm3QJaFb1OD45wqgPGj1aB9JWZ0toMp?usp=sharing
-Task 4 — https://colab.research.google.com/drive/1pw_BrzElPZrbQT3OT3aLxB3wNVdZaDVF?usp=sharing
-Task 5 — https://colab.research.google.com/drive/1SmiHdC2OoOQHUeGe-fVvG6IOKeHE-2iR?usp=sharing
-Fine-tuned Model (HuggingFace) nova-brand-voice-tinyllama - https://huggingface.co/Viddhula/nova-brand-voice-tinyllama
-W&B Training Dashboard nova-brand-voice run - https://wandb.ai/viduladp-sonata-software/nova-brand-voice
-GitHub Repository nova-ai-platform - https://github.com/viduladp/nova-ai-platform
-
-
-Requirements
-
-Python 3.10+
-Google Colab Free Tier
-Groq API key — console.groq.com
-W&B API key — wandb.ai (Task 4 only)
-HuggingFace token — huggingface.co (Task 4 only)
-
-
-.env file
-GROQ_API_KEY=your_groq_api_key_here
-WANDB_API_KEY=your_wandb_api_key_here
-HF_TOKEN=your_huggingface_token_here
-
-Install Dependencies
-pip install -r requirements.txt
 
 
