@@ -11,4 +11,4 @@ Task 4 — https://colab.research.google.com/drive/1pw_BrzElPZrbQT3OT3aLxB3wNVdZ
 Task 5 — https://colab.research.google.com/drive/1SmiHdC2OoOQHUeGe-fVvG6IOKeHE-2iR?usp=sharing
 Fine-tuned Model (HuggingFace) nova-brand-voice-tinyllama - https://huggingface.co/Viddhula/nova-brand-voice-tinyllama
 W&B Training Dashboard nova-brand-voice run - https://wandb.ai/viduladp-sonata-software/nova-brand-voice
-GitHub Repository nova-ai-platform - 
+GitHub Repository nova-ai-platform - https://github.com/viduladp/nova-ai-platform
