@@ -12,3 +12,23 @@ Task 5 — https://colab.research.google.com/drive/1SmiHdC2OoOQHUeGe-fVvG6IOKeHE
 Fine-tuned Model (HuggingFace) nova-brand-voice-tinyllama - https://huggingface.co/Viddhula/nova-brand-voice-tinyllama
 W&B Training Dashboard nova-brand-voice run - https://wandb.ai/viduladp-sonata-software/nova-brand-voice
 GitHub Repository nova-ai-platform - https://github.com/viduladp/nova-ai-platform
+
+
+Requirements
+
+Python 3.10+
+Google Colab Free Tier
+Groq API key — console.groq.com
+W&B API key — wandb.ai (Task 4 only)
+HuggingFace token — huggingface.co (Task 4 only)
+
+
+.env file
+GROQ_API_KEY=your_groq_api_key_here
+WANDB_API_KEY=your_wandb_api_key_here
+HF_TOKEN=your_huggingface_token_here
+
+Install Dependencies
+pip install -r requirements.txt
+
+
